@@ -1,0 +1,188 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgba(6,6,6,1);
+}
+
+.Ellipse_10 {
+    position: absolute;
+    overflow: visible;
+    width: 50vw;
+    height: 40vw;
+    left: 40%;
+    top: 30%;
+}
+
+#LOGO___CZ {
+    position: absolute;
+    width: 6vw;
+    height: 6.5vw;
+    left: 8%;
+    top: 5%;
+    overflow: visible;
+}
+.Rectangle_8 {
+    position: absolute;
+    overflow: visible;
+    width: 6px;
+    height: 200px;
+    left: 95%;
+    top: 39%;
+}
+.Rectangle_9 {
+    position: absolute;
+    overflow: visible;
+    width: 6px;
+    height: 104px;
+    left: 95%;
+    top: 50%;
+}
+.active{
+    text-decoration: underline ;
+}
+.nav{
+    width: 65vw;
+    height: 10vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 6vw;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Pier Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    text-decoration: underline;
+    color: lightslategray; 
+}
+.intro{
+    position: absolute;
+    z-index: 1;
+    overflow: visible;
+    width: 50vw;
+    color: rgba(255,255,255,1);
+}
+.intro h2{
+    position: absolute;
+    left: 25vw;
+    top: 3vw;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+}
+.Welcome{
+    position: absolute;
+    left: 15.5vw;
+    top: 8vw;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+}
+.Path_3 {
+    overflow: visible;
+    position: absolute;
+    width: 6vw;
+    height: 7vw;
+    left: 14vw;
+    top: 7vw;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_4 {
+    overflow: visible;
+    position: absolute;
+    width: 6vw;
+    height: 7vw;
+    transform: matrix(-1,0,0,1,0,0);
+    left: 40vw;
+    top: 7vw;
+}
+.st{
+    position: absolute;
+    left: -20vw;
+    top: -13.5vw;
+    overflow: visible;
+    width: 10vw;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    color: rgba(255,255,255,1);
+}
+#STUDENT {
+    position: absolute;
+    left: 41vw;
+    top: 26.5vw;
+    
+}
+#DEVELOPER {
+    position: absolute;
+    left: 53vw;
+    top: 26.5vw;
+    
+}
+.Line_2 {
+    position: absolute;
+    width: 5vw;
+    height: 0.1vw;
+    left: 47vw;
+    top: 27.2vw;
+    transform: matrix(1,0,0,1,0,0);
+}
+.ima{
+    position: absolute;
+    display: inline;
+    top: 16vw;
+    left: 22vw;
+}
+.ima img{
+    width: 3.8vw;
+    height: 2.5vw;
+    padding-left: 10px;
+}
+
+#ABOUT_ME a{
+    position: absolute;
+    text-decoration: none;
+    left: 48vw;
+    bottom: 5vw;
+    overflow: visible;
+    width: 89px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Pier Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    color: rgba(255,255,255,1);
+}
+.Path_1{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    left: 49.8vw;
+    bottom: 2vw;
+    overflow: visible;
+}
