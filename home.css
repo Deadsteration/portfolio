@@ -14,13 +14,14 @@ body{
 section{
     width: 100%;
     display: flex;
+    overflow-x: hidden;
 }
 section:nth-child(1){
     background-color: black;
     height: 100vh;
 }
 section:nth-child(2){
-    height: 80vh;
+    height: 85vh;
 }
 
 ::-webkit-scrollbar{
@@ -199,4 +200,43 @@ section:nth-child(2){
     left: 49.8vw;
     bottom: 2vw;
     overflow: visible;
+}
+#hello{
+    margin-top: -14vw;
+    margin-left: -10vw;
+    white-space: nowrap;
+	text-align: left;
+	font-family: Rage;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 77px;
+	color: rgba(255,204,0,1);
+}
+.who{
+    margin-left: 6vw;
+    margin-top: 6vw;
+	font-family: Segoe Script;
+	font-style: normal;
+	font-weight: normal;
+	color: rgba(0,0,0,1);
+}
+.short_intro{
+    margin-left: 10vw;
+    margin-top: 5vw;
+	white-space: nowrap;
+	font-family: Pier Sans;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.5vw;
+	color: rgba(36,4,36,1);
+}
+.who_line{
+    width: 30vw;
+	height: 1vw;
+	margin-left: -2vw;
+	margin-top: 1vw;
+	transform: matrix(1,0,0,1,0,0);
+}
+.who h1{
+    font-size : 4vw;
 }

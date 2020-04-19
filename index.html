@@ -8,9 +8,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="icon" href="images/LOGO - CZ.png">
     <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio - Home</title>
 </head>
 <body>
+    
     <section>
     <div class="container">
         <svg class="Ellipse_10">
@@ -76,11 +78,30 @@
     </div>
     </section>
     <section>
-        <div class="container">
+        <div
+        data-aos="fade-up"
+        class="container">
             <div class="about">
-                <h1>ABOUT ME</h1>
+                <div class="who">
+                    <h1>WHO AM I ?</h1>
+                    <svg class="who_line" viewBox="0 0 478 10">
+                        <path fill="rgba(255,204,0,1)" id="Path_5" d="M 0 0 L 478 0 L 478 10 L 0 10 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div class="short_intro">
+                        <span>Nice to meet ya ! I'm Chen Zhung a.k.a Deadsteration / Xectroz ,<br/>A Student Developer who studies Computer Sc. in Malaysia. Bla bla bla….<br/>anything I still dk what to say eh.  </span><a href="#" style="font-size:20px;color:rgba(0,15,255,1);">Learn more.... </a><br><span> </span>
+                    </div>
+                </div>     
+            </div>
+            <div id="hello">
+                <span>H<br/>E<br/>L<br/>L<br/>O</span>
             </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
